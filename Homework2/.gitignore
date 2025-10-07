@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignore generated results (but keep the folders)
+results/figures/*.png
+results/figures/*.pdf
+results/metrics/*.csv
+results/metrics/*.json
+
+# But keep the data!
+# data/ is NOT in .gitignore - we want to commit it
