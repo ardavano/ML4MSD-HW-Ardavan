@@ -1,0 +1,60 @@
+{
+  "folder_url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/tree/main/Homework2",
+  "repository": "ardavano/ML4MSD-HW-Ardavan",
+  "branch": "main",
+  "folder_path": "Homework2",
+  "files": [
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "size": 431,
+      "url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/blob/main/Homework2/.gitignore",
+      "content": "# Python\n__pycache__/\n*.py[cod]\n*$py.class\n*.so\n.Python\n\n# Jupyter Notebook\n.ipynb_checkpoints/\n*.ipynb_checkpoints\n\n# Virtual environments\nvenv/\nenv/\nENV/\n\n# IDE\n.vscode/\n.idea/\n*.swp\n*.swo\n\n# OS\n.DS_Store\nThumbs.db\n\n# Ignore generated results (but keep the folders)\nresults/figures/*.png\nresults/figures/*.pdf\nresults/metrics/*.csv\nresults/metrics/*.json\n\n# But keep the data!\n# data/ is NOT in .gitignore - we want to commit it\n",
+      "encoding": "text"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "size": 3106,
+      "url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/blob/main/Homework2/README.md",
+      "content": "# ML4MSD - Homework 2\n\n**Author:** Ardavan Mehdizadeh  \n**Course:** ML4MSD  \n**Due Date:** Monday, October 6, 2025, 11:59 PM\n\n## Overview\n\nThis homework focuses on data manipulation with Pandas and implementing machine learning fundamentals from scratch, specifically ridge regression without using Scikit-Learn.\n\n## Project Structure\n\n```\nHomework2/\n├── data/                              # Dataset\n│   └── band_gap_data.json            # Band gap materials data\n├── notebooks/                         # Jupyter notebooks\n│   ├── assignment1_filtering.ipynb   # Data filtering methods comparison\n│   └── assignment2_ridge_regression.ipynb  # Ridge regression implementation\n├── src/                               # Python source code (if needed)\n│   └── __init__.py\n├── results/                           # Output files\n│   ├── figures/                      # Generated plots (png/pdf)\n│   └── metrics/                      # Performance metrics\n├── docs/                              # Documentation\n│   └── assignment3_summary.md        # Reading summary\n├── requirements.txt                   # Python dependencies\n└── README.md                          # This file\n```\n\n## Setup\n\n### Installation\n\n```bash\n# Install dependencies\npip install -r requirements.txt\n\n# Or using uv (faster)\nuv pip install -r requirements.txt\n```\n\n### Running the Notebooks\n\n```bash\n# Launch Jupyter\njupyter notebook\n\n# Navigate to notebooks/ folder and open the desired notebook\n```\n\n## Assignments\n\n### Assignment 1: Data Filtering Performance Comparison\n- **Objective:** Compare three methods for filtering band gap data\n- **Methods:** Boolean masking, for-loop with `iat`, and `iloc`\n- **Filters:** `temperature_K > 50`, `crystallinity == \"Polycrystalline\"`, `exp_method == \"Reflection\"`\n- **Output:** Timing comparison for all three methods\n\n### Assignment 2: Ridge Regression from Scratch\n- **Objective:** Implement ridge regression without Scikit-Learn\n- **Tasks:**\n  1. Data cleaning and preprocessing\n  2. One-hot encoding for categorical features\n  3. Pearson correlation analysis\n  4. Train/test split (80/20)\n  5. Ridge regression with different alpha values\n  6. MSE tracking and visualization\n  7. Parity plot and MSE vs. alpha plot\n- **Output:** Analysis plots (saved in `results/figures/`)\n\n### Assignment 3: Reading Summary\n- **Objective:** Summarize chapters from \"Machine Learning Refined\"\n- **Chapters:** 5.6, 6.5-6.10, 7.3-7.4, plus 1-2 chapters from 9, 10, 11, or 14\n- **Output:** Summary document in `docs/assignment3_summary.md`\n\n## Results\n\nAll figures and metrics will be saved in the `results/` folder:\n- `results/figures/` - PNG/PDF plots\n- `results/metrics/` - Performance metrics (CSV/JSON)\n\n## References\n\n- Course GitHub: [ML4MSD-Files](https://github.com/d2r2group/ML4MSD-Files)\n- Homework Instructions: [hw2.md](https://github.com/d2r2group/ML4MSD-Files/blob/main/Homework/Homework2/hw2.md)\n- Machine Learning Refined: [Free GitHub Link](https://github.com/neonwatty/machine-learning-refined)",
+      "encoding": "text"
+    },
+    {
+      "name": "data",
+      "type": "dir",
+      "size": 0,
+      "url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/tree/main/Homework2/data",
+      "content": "[Directory]"
+    },
+    {
+      "name": "docs",
+      "type": "dir",
+      "size": 0,
+      "url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/tree/main/Homework2/docs",
+      "content": "[Directory]"
+    },
+    {
+      "name": "notebooks",
+      "type": "dir",
+      "size": 0,
+      "url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/tree/main/Homework2/notebooks",
+      "content": "[Directory]"
+    },
+    {
+      "name": "requirements.txt",
+      "type": "file",
+      "size": 127,
+      "url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/blob/main/Homework2/requirements.txt",
+      "content": "# ML4MSD Homework 2 - Requirements\n# Python 3.12+\n\npandas>=2.0.0\nnumpy>=1.24.0\nmatplotlib>=3.7.0\nseaborn>=0.12.0\njupyter>=1.0.0",
+      "encoding": "text"
+    },
+    {
+      "name": "src",
+      "type": "dir",
+      "size": 0,
+      "url": "https://github.com/ardavano/ML4MSD-HW-Ardavan/tree/main/Homework2/src",
+      "content": "[Directory]"
+    }
+  ]
+}
