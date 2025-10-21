@@ -1,5 +1,6 @@
 # API Keys and secrets - NEVER COMMIT THESE!
 config.py
+**/config.py
 *.key
 .env
 
@@ -10,6 +11,10 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Results
+*.png
+!**/figures/*.png
 
 # Data (optional - comment out if you want to commit CSV)
 # *.csv
