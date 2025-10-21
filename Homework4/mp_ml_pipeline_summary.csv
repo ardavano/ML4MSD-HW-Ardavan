@@ -1,0 +1,8 @@
+Metric,Value
+Dataset Size,1386
+SOAP Features,5000
+Target Property,Band Gap
+Test MAE (eV),0.2308
+Test RMSE (eV),0.2747
+Test R²,0.1329
+Baseline MAE (eV),0.2342
