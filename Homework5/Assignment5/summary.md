@@ -1,0 +1,9 @@
+# Assignment 5 Summary
+
+## Exercise 17.1: Li₂PrP₂ Bulk Modulus
+
+The MACE MLIP predicted a bulk modulus of 46.27 GPa for Li₂PrP₂, showing good agreement with the Materials Project DFT value of 49.18 GPa with approximately 6% underestimation. This demonstrates that universal MLIPs like MACE can reasonably predict mechanical properties for complex ternary compounds (probably) outside their primary training distribution, though with slightly lower accuracy compared to simpler elemental or binary systems.
+
+## Exercise 17.2: H₂ on Pt(110)
+
+MD simulation of H₂ adsorption on a Pt(110) surface using the MACE MLIP yielded a weakly negative adsorption energy of -0.039 eV, indicating weak physical bonding rather than strong chemical bonding. This suggests the absorbate-surface interaction is relatively weak at this configuration, which is physically reasonable as H₂ typically requires specific binding sites or surface defects for strong chemisorption on platinum. The NVT simulation showed temperature fluctuations between 27-78 K over 200 steps, indicating the system did not fully equilibrate to the target 300 K within the short simulation time (0.4 ps). Longer simulation times or adjusted thermostat coupling would be needed for proper equilibration. So thats why I tried to play with taut and number of steps to see if I can reach to 300K temperature. taut controls how strongly the thermostat couples to the system and smaller taut force the temperature reach faster to desired temperature but it it less realistic in real equilibration. I used taut value, 100, 75, 50 and 25 for 500 number of steps which is equal to 1ps. But still the temprature is fluctuating between 50 k to 70 k. So, even with smaller taut values and more steps, I'm still not reaching 300 K.
